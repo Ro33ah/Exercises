@@ -1,0 +1,60 @@
+####################################################
+###################Exercise 02######################
+
+1) The purpose of this exercise is to understand conditionals.
+   Hannes is a well sought after engineer and has several job offers.
+   He must choose on and he has some preferences. He likes his life in Weimar
+   and would take a job there if he earned over 50,000 a year. He'd only work in
+   Berlin if it pays at least 100,000. Anywhere else, he is fine with 70,000 a year,
+   unless it's with the Deutsches Zentrum für Luft- und Raumfahrt (DLR) in which case,
+   he would work for free.
+
+   The following code represents his basic strategy for accepting a job offer.
+
+        pay = n
+        offer = ""
+        if offer == "DLR":"
+            print "Yassss!!! I’ll take it!"
+        elif offer == "Berlin":
+            if pay < 100000:
+                print "Nein, Danke"
+            else:
+                print "I’ll take it!"
+        elif offer == "Weimar" and pay > 50000:
+            print "I’ll take it!"
+        elif pay > 60000:
+            print "I’ll take it!"
+        else:
+        print "I can do better."
+
+   a) What would be the output for each of the following offers?
+      i) offer = "Zeppelin GmbH Weimar"
+         pay = 60000
+      ii) offer = "BAUER Berlin"
+          pay = 93000
+      iii) offer = "DLR Köln"
+           pay = 23000
+      iv) offer = "GOLDBECK GmbH Hamburg"
+          pay = 50000
+
+2) Write a function named compute_time that takes in two required parameters:
+     - a start time in the 24-hour time format
+     - duration time that indicates the number of hours and minutes
+
+   The function adds the duration time to the start time and returns the new time as result.
+   If the new time is one or more days later, the function should return the new time followed
+   by "x days later" where x is the number of days.
+   For example:
+
+        compute_time("14:02", "24:30")
+        #returns 15:32, 1 day later
+
+   Do not import any Python libraries. Assume the program will always be fed with valid start times,
+   and the minutes in the duration will always be a whole number less than 60.
+
+   Write your code in the file calculate_time.py. During development, you may use main.py to test
+   the compute_time() function simply by clicking "Run" in your IDE.
+
+   Automated tests have been created in test_file.py and have been imported appropriately
+   so you do not need to do anything extra to run them. They run automatically when you run
+   main.py.

@@ -1,0 +1,46 @@
+####################################################
+###################Exercise 01######################
+
+1) Max Mustermann gives the following algorithm to calculate the factorial
+   of a number n:
+    for input n in N:
+        c <-- 1
+        for i <-- 1,...,n repeat
+            c <-- c.i
+        output c
+
+   Max is very surprised that he does not get the full score for his solution.
+   Find his mistake and correct it.
+
+2) The following algorithm checks whether an entered natural number
+   n is a prime number
+    for input n in N:
+        if n mod i = 0 then
+            Output "n is not a prime number"
+            End Algorithm
+    Output "n is a prime number"
+
+   a) Explain why this algorithm correctly determines whether n is a prime number
+   b) The given algorithm passes through the loop n twice. Show how this procedure
+   can be significantly sped up. Justify your answer.
+
+
+3) A farmer arrives with his goat, a huge cabbage and a wolf at the bank of a river
+   with no bridges. (Why a farmer has a wolf with him is a different matter altogether).
+   At the river is a boat with which he can transport a maximum of one of the items at once
+   (goat or cabbage or wolf). However, the appetite of the animals suggest that the wolf
+   would eat the goat or the goat would eat the cabbage if the farmer is not present.
+   In this dilemma, the farmer needs to find a way to transport all three objects safely to the
+   other side of the shore.
+
+   a) Give the farmer an algorithm to solve his problem The algorithm should only generate steps
+      in the following form as output:
+        - Bring x to the left/right bank. (where x is either the goat, the wolf or the cabbage).
+        - Drive to the left/right shore without an additional passenger.
+      How often does the farmer go back and forth?
+   b) Would it be faster if the farmer found a larger boat, which in addition to the farmer could
+      transport two items?
+   c) What does the algorithm look like if in scenario (b) the farmer has, in addition, a bear with him
+      who eats anything left alone? How often does the farmer go back and forth now?
+
+
