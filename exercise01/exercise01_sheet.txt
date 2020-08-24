@@ -33,7 +33,7 @@
    In this dilemma, the farmer needs to find a way to transport all three objects safely to the
    other side of the shore.
 
-   a) Give the farmer an algorithm to solve his problem The algorithm should only generate steps
+   a) Give the farmer an algorithm (in modern notation)to solve his problem. The algorithm should only generate steps
       in the following form as output:
         - Bring x to the left/right bank. (where x is either the goat, the wolf or the cabbage).
         - Drive to the left/right shore without an additional passenger.

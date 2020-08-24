@@ -1,0 +1,5 @@
+################################################################################
+#####################################Exercise 03################################
+
+Implement a class object with methods
+read from file, perform some computation (and maybe write output to file)
