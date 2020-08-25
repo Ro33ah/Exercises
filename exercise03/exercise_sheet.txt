@@ -1,10 +1,32 @@
 ################################################################################
 ###################################Exercise 03##################################
 
-Implement a class object with attributes and methods
+In this exercise, you will implement your first class, work with strings, practice
+file handling and working with graphics in Python. As usual, automated tests have
+been provided to aid testing.
+
+1) Implement a Stack class in stack.py with the init, pop, push and peek methods.
+   See https://en.wikipedia.org/wiki/Stack_(abstract_data_type) for more details
+   on stack abstract data structures
+
+2) Write the function in max_sum_subarray.py which takes as required arguments an
+   array of integers and a number, finds the maximum sum of a sub-array with lenght
+   equal to the number passed to the function. A sub-array must consecutive elements
+   of the original array. For example, if array = [6, 9, 23, 60, 2, 0], [23, 60, 2] is
+   a sub-array while [9, 2, 0] is not.
+
+3) Write a Student class with full name attribute and keeps exam scores for the
+   following subjects: Math, English, History, Biology and Geography. It should
+   include methods to calculate individual average score, assigns a grade attribute
+   to the student instance based on the average score as well as compute the average
+   score for all students per subject.
+
+4) In the text file is a record of students and their corresponding scores in the
+   above subjects.
+   Write a function which imports the data from the file and for each student, creates
+   an instance of the class, and writes to a single file each student name and final grade.
 
 
-Write a Python class for students which contain
 read from file, perform some computation (and maybe write output to file)
 Grade calculator:
 import Data from txt file

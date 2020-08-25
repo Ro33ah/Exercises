@@ -1,3 +1,4 @@
 
+def max_sum_subarray(my_array, sub_lenght):
 
-def max_sum_subarray():
+    return max_sum
