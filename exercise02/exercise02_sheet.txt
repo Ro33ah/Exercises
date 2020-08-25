@@ -25,7 +25,7 @@
         elif pay > 60000:
             print "I’ll take it!"
         else:
-        print "I can do better."
+            print "I can do better."
 
    a) What would be the output for each of the following offers?
       i) offer = "Zeppelin GmbH Weimar"

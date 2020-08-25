@@ -1,5 +1,14 @@
 ################################################################################
-#####################################Exercise 03################################
+###################################Exercise 03##################################
 
-Implement a class object with methods
+Implement a class object with attributes and methods
+
+
+Write a Python class for students which contain
 read from file, perform some computation (and maybe write output to file)
+Grade calculator:
+import Data from txt file
+implement individual_average
+implement class_average
+implement percentage
+assign grade
