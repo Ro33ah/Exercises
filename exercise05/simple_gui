@@ -1,0 +1,15 @@
+import tkinter
+
+class Calculator:
+    def __init__(self):
+        pass
+
+    def compute_square_root(self):
+        pass
+
+    def compute_exponent(self, first_value, second_value):
+        pass
+
+    def compute_modulus(self, first_value, second_value):
+        pass
+

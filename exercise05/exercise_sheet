@@ -1,7 +1,7 @@
 ################################################################################
-###################################Exercise 04##################################
+###################################Exercise 05##################################
+*covers Lesson_05 & Lesson_06
 
-some math/true-false questions
 A plot of math functions
 A simple GUI - Calculator of sorts
 string operations:
@@ -12,9 +12,14 @@ string operations:
    and g(x) = x.EXP(−x/3) over the interval [0, 10]. Include labels for the x and y-axes,
    and a legend showing which line is which plot. Save the plot as a .jpg file in the folder.
 
-2) Using tkinter (and any other) library, implement a calculator GUI for computing the following
+2) Using tkinter (and any other) library, implement a calculator class and GUI for computing the following
    operations:
-    - square root
-    - exponent (a^b, for any a or b)
-    - modulus (for any 2 numbers)
+    - square root [compute_square_root]
+      values < 1 should return "Invalid input"
+    - exponent (a^b, for any a or b) [compute_exponent]
+    - modulus (for any 2 numbers) [compute_modulus]
    The design of the interface is left to you, however, there should be a display for the result.
+   Decimal result values should be rounded up to 3 decimal places. Be careful, rounding is tricky here
+
+
+3)
