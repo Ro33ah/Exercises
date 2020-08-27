@@ -1,9 +1,10 @@
 ################################################################################
 ###################################Exercise 03##################################
+**covers Lesson03 and Lesson04
 
 In this exercise, you will implement your first class, work with strings, practice
 file handling and working with graphics in Python. As usual, automated tests have
-been provided to aid testing.
+been provided.
 
 1) Implement a Stack class in stack.py with the init, pop, push and peek methods.
    See https://en.wikipedia.org/wiki/Stack_(abstract_data_type) for more details
@@ -23,8 +24,8 @@ been provided to aid testing.
 
 4) In the text file is a record of students and their corresponding scores in the
    above subjects.
-   Write a function which imports the data from the file and for each student, computes
-   the final grade and writes each student name and grade to a text file.
+   Write a function which imports the data from the file, and for each student computes
+   the final grade. Write each student name and grade to a text file.
 
 
 read from file, perform some computation (and maybe write output to file)

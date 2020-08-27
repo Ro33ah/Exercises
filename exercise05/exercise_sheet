@@ -1,0 +1,15 @@
+################################################################################
+###################################Exercise 04##################################
+
+some math/true-false questions
+A plot of math functions
+A simple GUI - Calculator of sorts
+string operations:
+    read input
+
+
+1)
+
+2) Using tkinter (and any other) library, implement a calculator GUI for computing the following
+   operations:
+   The design of the interface is left to you, however, there should be a display for the result.
