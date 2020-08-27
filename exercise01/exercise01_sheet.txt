@@ -14,7 +14,7 @@
 
 2) The following algorithm checks whether an entered natural number
    n is a prime number
-    for input n in N:
+    For input n in N:
         if n mod i = 0 then
             Output "n is not a prime number"
             End Algorithm

@@ -1,0 +1,32 @@
+################################################################################
+###################################Exercise 06##################################
+
+1) Recursion
+   You are given two arrays: [a(1),...,a(n)] and [b(1),...,b(n)]. In each step i,
+   you can set a(i) = a(i) - b(i) if a(i) > b(i). Determine the minimum number of
+   steps that are required to make all a's equal.
+   Development:
+   The program prompts for input
+
+Input format
+
+First line:
+Second line:
+Third line:
+Output format
+
+Print the minimum number of steps that are required to make all 's equal. If it is not possible, then print -1.
+
+Constraints
+
+
+Sample input
+
+2
+5 6
+4 3
+
+Sample output
+
+-1
+

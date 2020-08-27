@@ -1,0 +1,17 @@
+################################################################################
+###################################Exercise 04##################################
+
+Graphics 2D
+Anonymous function
+some math
+string operations:
+    read input
+
+1) Research the color model YCrCb on the Internet.
+    a) Describe this color model briefly.
+
+    b) Give a formula, which can be used to calculate the RGB value of a pixel
+    (for color values from the interval ({0,...,255}\in N) into the corresponding YCrCb values.
+
+    c) Specify a Python method, which implements this conversion (input and output should
+    must be lists of length 3)
