@@ -7,6 +7,7 @@ Graphics 2D
 Anonymous function
 A simple plot
 
+#Add gui to import images, greyscale them and save
 1) Research the color model YCrCb on the Internet.
     a) Describe this color model briefly.
 

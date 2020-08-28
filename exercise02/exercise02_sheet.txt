@@ -2,6 +2,7 @@
 ###################Exercise 02######################
 
 1) The purpose of this exercise is to understand conditionals.
+
    Hannes is a well sought after engineer and has several job offers.
    He must choose on and he has some preferences. He likes his life in Weimar
    and would take a job there if he earned over 50,000 a year. He'd only work in
@@ -36,6 +37,9 @@
            pay = 23000
       iv) offer = "GOLDBECK GmbH Hamburg"
           pay = 50000
+
+# move to ex after strings
+Replace with function to compute grades
 
 2) Write a function named compute_time that takes in two required parameters:
      - a start time in the 24-hour time format

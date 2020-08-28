@@ -44,10 +44,12 @@
    c) Determine the number of comparisons that will be made for lists of size 4, 6 and 8.
    d) From c), state the number of comparisons are necessary for lists of length n? (as a formula)
 
-
+Must be from file
+Map out possible output
+Tailored data structure, IO, string parsing
 3) Design and implement a quiz program. The program should read question and answer
     information from a file. For example, a state capital quiz would contain the state
-    and its capital on each line (e.g. , Thüringen : Erfurt). Your program should ask
+    and its capital on each line (e.g. , "Thüringen" : Erfurt). Your program should ask
     a fixed number of questions and output the number of correct answers.
     Create at least three separate functions in your design.
 

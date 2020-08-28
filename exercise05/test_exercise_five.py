@@ -9,7 +9,7 @@ class TestExerciseFive(TestCase):
         self.assertEqual(31, 5.568, "Expected function to return 5.568")
         self.assertEqual(0, 0, "Expected function to return 0")
         self.assertEqual(-81, "Invalid input", 'Expected function to return "Invalid input"')
-
+# more edge cases
     def test_compute_exponent(self):
         self.assertEqual(compute_exponent(-3, 2), 9, "Expected function to return 9")
         self.assertEqual(compute_exponent(2, -3), 0.125, "Expected function to return 0.125")

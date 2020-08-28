@@ -12,6 +12,8 @@ string operations:
    and g(x) = x.EXP(−x/3) over the interval [0, 10]. Include labels for the x and y-axes,
    and a legend showing which line is which plot. Save the plot as a .jpg file in the folder.
 
+# calculate more tougher functions
+#replace with gui for color model
 2) Using tkinter (and any other) library, implement a calculator class and GUI for computing the following
    operations:
     - square root [compute_square_root]
