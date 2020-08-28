@@ -21,5 +21,4 @@ string operations:
    The design of the interface is left to you, however, there should be a display for the result.
    Decimal result values should be rounded up to 3 decimal places. Be careful, rounding is tricky here
 
-
 3)
