@@ -1,9 +1,7 @@
-from calculate_time import compute_time
 from unittest import main
+from calculate_grade import compute_grade
 
-
-print(compute_time("11:55", "3:12"))
-
+print(compute_grade(57.3))
 
 # Runs tests automatically
-main(module='test_file', exit=False)
+main(module='test_exercise_two', exit=False)

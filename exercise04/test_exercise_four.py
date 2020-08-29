@@ -2,7 +2,7 @@ from unittest import TestCase
 from the_solutions import square_it, change_list, lambda_version, random_matrix
 
 
-class ExerciseTest(TestCase):
+class TestExerciseFour(TestCase):
     def test_change_list(self):
         actual = change_list([2, 4, 16], square_it)
         expected = [4, 16, 256]

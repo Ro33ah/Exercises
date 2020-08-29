@@ -1,9 +1,19 @@
 ################################################################################
 ###################################Exercise 06##################################
 
+IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas as if
+           they were your own. Plagiarism is a serious offense and will not be
+           tolerated. You must also cite any sources from which your code or any
+           ideas come from. Give proper credit while adding your own reflection
+           will likely earn you higher scores.
+           You may include citations as comments in the code block where the idea
+           is used or as a footnote in non-code exercises.
+
 **covers Lesson_07 & Lesson_08
-1) Recursion: We can learn a lot from reading code which we did not write.
-   What output does the following program return when called?
+With this exercise, we learn more about recursion and sorting by reading code which we did not write
+and trying to make sense out of it. We also work with lists. (11 marks)
+
+1) What output does the following program return when called?
 
        def misch(a):
             if a>1:
@@ -43,15 +53,14 @@
    b) Does this program always sort correctly? Justify your answer.
    c) Determine the number of comparisons that will be made for lists of size 4, 6 and 8.
    d) From c), state the number of comparisons are necessary for lists of length n? (as a formula)
+   Save your answers in a separate text file.
 
-Must be from file
-Map out possible output
-Tailored data structure, IO, string parsing
-3) Design and implement a quiz program. The program should read question and answer
-    information from a file. For example, a state capital quiz would contain the state
-    and its capital on each line (e.g. , "Thüringen" : Erfurt). Your program should ask
-    a fixed number of questions and output the number of correct answers.
-    Create at least three separate functions in your design.
+3) Implement a function in max_sum_subarray.py which takes as required arguments an
+   array of integers and a number, finds the maximum sum of a sub-array with length
+   equal to the number passed to the function.
+   A sub-array must consecutive elements of the original array. For example,
+   if array = [6, 9, 23, 60, 2, 0] and length = 3, [23, 60, 2] is a sub-array while [9, 2, 0] is not.
+   The array can be an empty list.
 
 4) Write a function sans_duplicates which takes a sorted list of integers as input and returns the same list
    but without duplicate list members.

@@ -1,0 +1,10 @@
+Amelia Anne,10,12,9,15,37
+Bootstraps Bootstrap,15,10,12,15,45
+Chadwick Cassidy,7,11,13,9,37
+Homer Joker,4,6,3,8,13
+Kerem Kathy,12.2,15,11.7,9.3,45
+Mario Lara,7,9,8,10,27
+Sam Serena,15,0,4,12,44
+Tony Shuri,14.5,12.8,9,11,39
+Van Vivian,2,0,3.8,8,17
+Young Yvonne,11,9.7,10,8.2,22.9

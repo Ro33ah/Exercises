@@ -1,18 +1,15 @@
 
 class Student:
 
-    def __init__(self):
+    def __init__(self, student_name, results):
         pass
 
-    def individual_average(self):
+    def overall_score(self):
         pass
 
-    def class_average(self):
+    def compute_grade(self):
         pass
 
-    def assign_grade(self):
-        pass
-
-# writes
+# reads from file, perform
 def grading():
     pass

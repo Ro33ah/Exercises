@@ -1,3 +1,8 @@
+# implements YCbCr
+def rgb_to_YCbCr(input_val):
+
+    return ycbcr
+
 # returns the square of value passed
 def square_it(val):
     return val * val

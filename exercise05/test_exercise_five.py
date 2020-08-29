@@ -1,24 +1,28 @@
 from unittest import TestCase
-from simple_gui import compute_exponent, compute_modulus
+from calculate_time, import compute_time
 
 
 class TestExerciseFive(TestCase):
-    def test_compute_square_root(self):
-        self.assertEqual(9, 3, "Expected function to return 3")
-        self.assertEqual(25, 5, "Expected function to return 5")
-        self.assertEqual(31, 5.568, "Expected function to return 5.568")
-        self.assertEqual(0, 0, "Expected function to return 0")
-        self.assertEqual(-81, "Invalid input", 'Expected function to return "Invalid input"')
-# more edge cases
-    def test_compute_exponent(self):
-        self.assertEqual(compute_exponent(-3, 2), 9, "Expected function to return 9")
-        self.assertEqual(compute_exponent(2, -3), 0.125, "Expected function to return 0.125")
-        self.assertEqual(compute_exponent(5, 5), 3125, "Expected function to return 3125")
+    def test_same_day(self):
+        actual = compute_time("13:30", "2:12")
+        expected = "15:42"
+        self.assertEqual(actual, expected, 'Expected result is "15:42"')
 
-    def test_compute_modulus(self):
-        self.assertEqual(compute_modulus(2, 2), 0, "Expected function to return 0")
-        self.assertEqual(compute_modulus(100, 30), 10, "Expected function to return 10")
-        self.assertEqual(compute_modulus(-100, 30), -10, "Expected function to return -10")
-        self.assertEqual(compute_modulus(-100, -30), -10, "Expected function to return -10")
-        self.assertEqual(compute_modulus(100, -30), 10, "Expected function to return 10")
+    def test_next_day(self):
+        actual = compute_time("14:02", "24:30")
+        expected = "15:32 (1 day later)"
+        self.assertEqual(actual, expected, 'Expected result to end with '
+                                           '"(1 day later)" when it is next day')
+
+    def test_days_later(self):
+        actual = compute_time("23:17", "100:15")
+        expected = "03:32 (5 days later)"
+        self.assertEqual(actual, expected, 'expected additional string "(5 days later)"')
+
+    def test_no_change(self):
+        actual = compute_time("00:10", "0:00")
+        expected = "00:10"
+
+        self.assertEqual(actual, expected, 'expected the same time "00:10"')
+
 

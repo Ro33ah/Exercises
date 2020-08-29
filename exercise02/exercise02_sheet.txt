@@ -1,9 +1,18 @@
-####################################################
-###################Exercise 02######################
+################################################################################
+###############################Exercise 02######################################
 
-1) The purpose of this exercise is to understand conditionals.
+IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas as if
+           they were your own. Plagiarism is a serious offense and will not be
+           tolerated. You must also cite any sources from which your code or any
+           ideas come from. Give proper credit while adding your own reflection
+           will likely earn you higher scores.
+           You may include citations as comments in the code block where the idea
+           is used or as a footnote in non-code exercises.
 
-   Hannes is a well sought after engineer and has several job offers.
+*covers Lecture_02
+The purpose of this exercise is to understand conditionals. (10 marks)
+
+1) Hannes is a well sought after engineer and has several job offers.
    He must choose on and he has some preferences. He likes his life in Weimar
    and would take a job there if he earned over 50,000 a year. He'd only work in
    Berlin if it pays at least 100,000. Anywhere else, he is fine with 70,000 a year,
@@ -38,27 +47,25 @@
       iv) offer = "GOLDBECK GmbH Hamburg"
           pay = 50000
 
-# move to ex after strings
-Replace with function to compute grades
 
-2) Write a function named compute_time that takes in two required parameters:
-     - a start time in the 24-hour time format
-     - duration time that indicates the number of hours and minutes
+2) Write a function which computes a student's overall grade based on their score.
+   That is, it takes a input a number between 0 and 100 and returns a grade based on
+   the German grading system outlined below.
 
-   The function adds the duration time to the start time and returns the new time as result.
-   If the new time is one or more days later, the function should return the new time followed
-   by "x days later" where x is the number of days.
-   For example:
+       Grade	Percentage
+        1.0	    100-95.5
+        1.3	    95.4 – 90.9
+        1.7	    90.8 – 84.8
+        2.0	    84.7 – 80.3
+        2.3	    80.2 – 75.8
+        2.7	    75.7 – 69.7
+        3.0	    69.6 – 65.2
+        3.3	    65.1 – 60.6
+        3.7	    60.5 – 54.4
+        4.0	    54.3 – 50
+        5.0	     0   – 49.9
 
-        compute_time("14:02", "24:30")
-        #returns 15:32, 1 day later
 
-   Do not import any Python libraries. Assume the program will always be fed with valid start times,
-   and the minutes in the duration will always be a whole number less than 60.
-
-   Write your code in the file calculate_time.py. During development, you may use main.py to test
-   the compute_time() function simply by clicking "Run" in your IDE.
-
-   Automated tests have been created in test_file.py and have been imported appropriately
+   Automated tests have been created in test_exercise_two.py and have been imported appropriately
    so you do not need to do anything extra to run them. They run automatically when you run
    main.py.

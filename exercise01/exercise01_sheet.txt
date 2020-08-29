@@ -1,5 +1,17 @@
-####################################################
-###################Exercise 01######################
+###############################################################################
+####################################Exercise 01################################
+
+IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas as if
+           they were your own. Plagiarism is a serious offense and will not be
+           tolerated. You must also cite any sources from which your code or any
+           ideas come from. Give proper credit while adding your own reflection
+           will likely earn you higher scores.
+           You may include citations as comments in the code block where the idea
+           is used or as a footnote in non-code exercises.
+
+*covers Lecture_01
+The goal of this exercise is to help you with writing and understanding algorithms.
+(5 marks)
 
 1) Max Mustermann gives the following algorithm to calculate the factorial
    of a number n:
@@ -12,13 +24,13 @@
    Max is very surprised that he does not get the full score for his solution.
    Find his mistake and correct it.
 
-2) The following algorithm checks whether an entered natural number
-   n is a prime number
+2) The following algorithm checks whether a given natural number n is a prime number
     For input n in N:
-        if n mod i = 0 then
+        if n mod 2 = 0 then
             Output "n is not a prime number"
-            End Algorithm
+            End
     Output "n is a prime number"
+    End Algorithm
 
    a) Explain why this algorithm correctly determines whether n is a prime number
    b) The given algorithm passes through the loop n twice. Show how this procedure
@@ -36,7 +48,7 @@
    a) Give the farmer an algorithm (in modern notation)to solve his problem. The algorithm should only generate steps
       in the following form as output:
         - Bring x to the left/right bank. (where x is either the goat, the wolf or the cabbage).
-        - Drive to the left/right shore without an additional passenger.
+        - Row to the left/right shore without an additional passenger.
       How often does the farmer go back and forth?
    b) Would it be faster if the farmer found a larger boat, which in addition to the farmer could
       transport two items?

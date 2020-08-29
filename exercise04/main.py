@@ -6,4 +6,4 @@ print(change_list(the_list, square_it))
 
 
 # Runs tests automatically
-main(module='test_file', exit=False)
+main(module='test_exercise_four', exit=False)

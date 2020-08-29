@@ -1,6 +1,6 @@
 class Stack:
     def __init__(self):
-        pass
+        self.items = []
 
     # adds an element to the stack
     def push(self):
@@ -13,3 +13,6 @@ class Stack:
     # returns the element at the top of the stack
     def peek(self):
         pass
+
+    def size(self):
+        return len(self.items)

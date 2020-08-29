@@ -1,37 +1,36 @@
 ################################################################################
 ###################################Exercise 03##################################
-**covers Lesson03 and Lesson04
 
+IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas as if
+           they were your own. Plagiarism is a serious offense and will not be
+           tolerated. You must also cite any sources from which your code or any
+           ideas come from. Give proper credit while adding your own reflection
+           will likely earn you higher scores.
+           You may include citations as comments in the code block where the idea
+           is used or as a footnote in non-code exercises.
+
+**covers Lesson03 and Lesson04
 In this exercise, you will implement your first class, work with strings, practice
 file handling and working with graphics in Python. As usual, automated tests have
-been provided.
+been provided. (10 marks)
 
 1) Implement a Stack class in stack.py with the init, pop, push and peek methods.
    See https://en.wikipedia.org/wiki/Stack_(abstract_data_type) for more details
-   on stack abstract data structures
+   on stack abstract data structures.
+   Don't forget to specify the size of the stack.
 
-2) Write the function in max_sum_subarray.py which takes as required arguments an
-   array of integers and a number, finds the maximum sum of a sub-array with length
-   equal to the number passed to the function. A sub-array must consecutive elements
-   of the original array. For example, if array = [6, 9, 23, 60, 2, 0] and length = 3, [23, 60, 2] is
-   a sub-array while [9, 2, 0] is not.
-
-3) Write a Student class with full name attribute and keeps exam scores for the
-   following subjects: Math, English, History, Biology and Geography. It should
-   include methods to calculate individual average score, assigns a grade attribute
-   to the student instance based on the average score as well as compute the average
-   score for all students per subject.
-
-4) In the text file is a record of students and their corresponding scores in the
-   above subjects.
+2) Write a Student class with full name attribute and keeps scores for the
+   assignments and examination done by the student. The class is instantiated with
+   the student_name and a results list for each assessment in the order: first assignment,
+   second, third, fourth and exam. That is results[4] is the student's score in the exam.
+   It should include methods overall_score which returns the individual total score
+   (in percentage) and compute_grade which outputs a grade based on the total score.
+   The assignments make up 50% of the overall grade while the exam makes up the remaining 50%.
+   There are 4 assignments, each of which is graded over 15 marks, while the examination
+   is 50 marks in total. Note: The final score should be rounded to 1 decimal place.
+   You may use the compute_grade function and the grading system outlined in Exercise_02.
+   In the text file, student_data.txt, is a record of students and their corresponding scores.
    Write a function which imports the data from the file, and for each student computes
-   the final grade. Write each student name and grade to a text file.
+   the final grade. Write each student name and grade to a new text file stored in the
+   same location.
 
-
-read from file, perform some computation (and maybe write output to file)
-Grade calculator:
-import Data from txt file
-implement individual_average
-implement class_average
-implement percentage
-assign grade
