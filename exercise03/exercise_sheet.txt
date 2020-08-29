@@ -9,7 +9,7 @@ IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas 
            You may include citations as comments in the code block where the idea
            is used or as a footnote in non-code exercises.
 
-**covers Lesson03 and Lesson04
+**covers Slide_03 and Slide_04
 In this exercise, you will implement your first class, work with strings, practice
 file handling and working with graphics in Python. As usual, automated tests have
 been provided. (10 marks)

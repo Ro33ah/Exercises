@@ -9,7 +9,7 @@ IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas 
            You may include citations as comments in the code block where the idea
            is used or as a footnote in non-code exercises.
 
-*covers Lecture_01
+*covers Slide_01
 The goal of this exercise is to help you with writing and understanding algorithms.
 (5 marks)
 

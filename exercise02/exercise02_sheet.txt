@@ -9,7 +9,7 @@ IMPORTANT: Plagiarism is the use of someone else’s work, words, code or ideas 
            You may include citations as comments in the code block where the idea
            is used or as a footnote in non-code exercises.
 
-*covers Lecture_02
+*covers Slide_02
 The purpose of this exercise is to understand conditionals. (10 marks)
 
 1) Hannes is a well sought after engineer and has several job offers.
